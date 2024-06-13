@@ -8,6 +8,7 @@
     "directory": "packages/darwin-arm64"
   },
   "license": "Apache-2.0",
+  "main": "bin/zenv",
   "files": [
     "bin"
   ],
