@@ -13,7 +13,7 @@
     "bin"
   ],
   "bin": {
-    "zenv": "./bin/zenv"
+    "zenv-linux-arm64": "./bin/zenv"
   },
   "os": [
     "linux"
