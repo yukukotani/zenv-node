@@ -1,6 +1,6 @@
 {
   "name": "@zenv-node/linux-arm64",
-  "version": "0.1.5-3",
+  "version": "0.1.5-4",
   "author": "Yuku Kotani <yukukotani@gmail.com>",
   "repository": {
     "type": "git",
@@ -11,9 +11,6 @@
   "files": [
     "bin"
   ],
-  "bin": {
-    "zenv": "./bin/zenv"
-  },
   "os": [
     "linux"
   ],
