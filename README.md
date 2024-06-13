@@ -1,4 +1,4 @@
-# zenv
+# zenv-node
 
 NPM package of [m-mizutani/zenv](https://github.com/m-mizutani/zenv).
 
