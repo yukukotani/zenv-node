@@ -6,7 +6,14 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    optionalDependencies:
+      '@zenv-node/darwin-amd64':
+        specifier: workspace:*
+        version: link:packages/darwin-amd64
+      '@zenv-node/darwin-arm64':
+        specifier: workspace:*
+        version: link:packages/darwin-arm64
 
   packages/darwin-amd64: {}
 
