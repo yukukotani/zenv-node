@@ -1,0 +1,23 @@
+{
+  "name": "@zenv-node/linux-arm64",
+  "version": "0.1.5-2",
+  "author": "Yuku Kotani <yukukotani@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukukotani/zenv-node.git",
+    "directory": "packages/linux-arm64"
+  },
+  "license": "Apache-2.0",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "zenv": "./bin/zenv"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ]
+}
