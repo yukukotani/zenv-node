@@ -21,6 +21,8 @@ const binPath = require.resolve(`@zenv-node/${os}-${arch}`);
 console.log(binPath);
 
 const { execSync } = require("child_process");
-const res = execSync(`cp ${binPath} bin/zenv`);
-
-// console.log(String(res));
+try {
+  execSync(`cp ${binPath} bin/zenv`);
+} catch (e) {
+  process.exit(1);
+}

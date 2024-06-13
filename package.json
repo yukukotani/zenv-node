@@ -1,6 +1,6 @@
 {
   "name": "zenv-node",
-  "version": "0.1.5-3",
+  "version": "0.1.5-4",
   "author": "Yuku Kotani <yukukotani@gmail.com>",
   "repository": {
     "type": "git",
@@ -9,7 +9,8 @@
   },
   "license": "Apache-2.0",
   "files": [
-    "bin"
+    "bin",
+    "install.js"
   ],
   "bin": {
     "zenv": "bin/zenv"
