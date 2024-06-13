@@ -1,0 +1,23 @@
+{
+  "name": "@zenv-node/darwin-amd64",
+  "version": "0.1.4",
+  "author": "Yuku Kotani <yukukotani@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukukotani/zenv-node.git",
+    "directory": "packages/darwin-amd64"
+  },
+  "license": "Apache-2.0",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "zenv": "./bin/zenv"
+  },
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ]
+}
