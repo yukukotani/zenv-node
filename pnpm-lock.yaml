@@ -14,7 +14,17 @@ importers:
       '@zenv-node/darwin-arm64':
         specifier: workspace:*
         version: link:packages/darwin-arm64
+      '@zenv-node/linux-amd64':
+        specifier: workspace:*
+        version: link:packages/linux-amd64
+      '@zenv-node/linux-arm64':
+        specifier: workspace:*
+        version: link:packages/linux-arm64
 
   packages/darwin-amd64: {}
 
   packages/darwin-arm64: {}
+
+  packages/linux-amd64: {}
+
+  packages/linux-arm64: {}

@@ -1,6 +1,6 @@
 {
   "name": "zenv-node",
-  "version": "0.1.5-2",
+  "version": "0.1.5-3",
   "author": "Yuku Kotani <yukukotani@gmail.com>",
   "repository": {
     "type": "git",
@@ -8,11 +8,19 @@
     "directory": "packages/darwin-arm64"
   },
   "license": "Apache-2.0",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "zenv": "bin/zenv"
+  },
   "optionalDependencies": {
     "@zenv-node/darwin-arm64": "workspace:*",
-    "@zenv-node/darwin-amd64": "workspace:*"
+    "@zenv-node/darwin-amd64": "workspace:*",
+    "@zenv-node/linux-arm64": "workspace:*",
+    "@zenv-node/linux-amd64": "workspace:*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node install.js"
   }
 }
