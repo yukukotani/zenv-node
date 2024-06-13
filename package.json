@@ -1,6 +1,6 @@
 {
   "name": "zenv-node",
-  "version": "0.1.5-5",
+  "version": "0.1.5-6",
   "author": "Yuku Kotani <yukukotani@gmail.com>",
   "repository": {
     "type": "git",
@@ -19,8 +19,5 @@
     "@zenv-node/darwin-amd64": "workspace:*",
     "@zenv-node/linux-arm64": "workspace:*",
     "@zenv-node/linux-amd64": "workspace:*"
-  },
-  "scripts": {
-    "postinstall": "node install.js"
   }
 }
