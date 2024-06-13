@@ -9,11 +9,10 @@
   },
   "license": "Apache-2.0",
   "files": [
-    "bin",
-    "install.js"
+    "bin"
   ],
   "bin": {
-    "zenv": "bin/zenv"
+    "zenv": "bin/zenv.js"
   },
   "optionalDependencies": {
     "@zenv-node/darwin-arm64": "workspace:*",
